@@ -209,3 +209,5 @@ function! HiCursorWords_toggle()
 endfunction
 
 map <F5> :call HiCursorWords_toggle()<cr>
+set autoread                                                                                                                                                                                    
+au CursorHold * checktime
